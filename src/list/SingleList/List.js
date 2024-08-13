@@ -1,7 +1,4 @@
-import {
-  OutOfBoundsException,
-  UnderflowException,
-} from "../../error/exceptions";
+import { OutOfBoundsException, UnderflowException } from "utils/exceptions";
 
 /**
  * Represents a node in a singly linked list.

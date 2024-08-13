@@ -1,7 +1,4 @@
-import {
-  UnderflowException,
-  OutOfBoundsException,
-} from "../../error/exceptions.js";
+import { UnderflowException, OutOfBoundsException } from "utils/exceptions.js";
 
 /**
  * Represents a node in a doubly linked list.

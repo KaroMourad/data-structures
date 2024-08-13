@@ -6,8 +6,10 @@
     "jsx": "react",
     "allowImportingTsExtensions": true,
     "strictNullChecks": true,
-    "strictFunctionTypes": true
+    "strictFunctionTypes": true,
+    "baseUrl": "src",
   },
+  "include": ["src"],
   "exclude": ["node_modules", "**/node_modules/*"],
   "editor.tabSize": 4,
   "editor.detectIndentation": false,

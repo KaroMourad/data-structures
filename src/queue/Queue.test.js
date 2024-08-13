@@ -3,7 +3,7 @@ import {
   UnderflowException,
   OverflowException,
   NonNumericValuesException,
-} from "../error/exceptions.js";
+} from "utils/exceptions.js";
 
 describe("Queue", () => {
   let queue;

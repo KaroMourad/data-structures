@@ -1,5 +1,5 @@
 import Stack from "./Stack.js";
-import { UnderflowException, OverflowException } from "../error/exceptions.js";
+import { UnderflowException, OverflowException } from "utils/exceptions.js";
 
 // Create a stack with a capacity of 3
 const stack = new Stack(3);

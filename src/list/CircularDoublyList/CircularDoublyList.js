@@ -1,7 +1,4 @@
-import {
-  OutOfBoundsException,
-  UnderflowException,
-} from "../../error/exceptions.js";
+import { OutOfBoundsException, UnderflowException } from "utils/exceptions.js";
 
 class Node {
   /**

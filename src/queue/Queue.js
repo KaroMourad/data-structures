@@ -2,7 +2,7 @@ import {
   NonNumericValuesException,
   UnderflowException,
   OverflowException,
-} from "../error/exceptions.js";
+} from "utils/exceptions.js";
 
 /**
  * Queue represents a queue data structure (FIFO).

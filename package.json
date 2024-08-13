@@ -1,7 +1,7 @@
 {
-  "name": "interview-prep",
+  "name": "data-structres",
   "version": "1.0.0",
-  "description": "",
+  "description": "Custom abstract data types with Javascript",
   "scripts": {
     "build": "swc src --out-dir dist --ignore '**/*.test.js,**/*.example.js'",
     "test": "jest",
