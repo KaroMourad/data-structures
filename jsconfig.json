@@ -1,15 +1,14 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src",
+    "target": "ES2020",
     "module": "ESNext",
     "moduleResolution": "Node",
-    "target": "ES2020",
     "jsx": "react",
-    "allowImportingTsExtensions": true,
-    "strictNullChecks": true,
-    "strictFunctionTypes": true,
-    "baseUrl": "src",
+    "allowJs": true,
+    "checkJs": true
   },
-  "include": ["src"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "**/node_modules/*"],
   "editor.tabSize": 4,
   "editor.detectIndentation": false,

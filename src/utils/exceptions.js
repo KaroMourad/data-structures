@@ -1,5 +1,5 @@
 /**
- * Represents an exception thrown when an operation is performed on a data structure that is full.
+ * Represents an exception thrown when a position is out of range of the structure.
  * @extends Error
  */
 export class OutOfBoundsException extends Error {
@@ -7,14 +7,14 @@ export class OutOfBoundsException extends Error {
    * Creates a new OutOfBoundsException.
    * @param {string} message - The error message.
    */
-  constructor(message = "Out of bounds") {
+  constructor(message = "Out of bounds: The position is out of range") {
     super(message);
     this.name = "OutOfBoundsException";
   }
 }
 
 /**
- * Represents an exception thrown when an operation is performed on a data structure that is empty.
+ * Represents an exception thrown when a structure is empty.
  * @extends Error
  */
 export class UnderflowException extends Error {
@@ -29,7 +29,7 @@ export class UnderflowException extends Error {
 }
 
 /**
- * Represents an exception thrown when an operation is performed on a data structure that exceeds its maximum size.
+ * Represents an exception thrown when a structure is full.
  * @extends Error
  */
 export class OverflowException extends Error {
@@ -44,7 +44,7 @@ export class OverflowException extends Error {
 }
 
 /**
- * Represents an exception thrown when an operation is performed on a data structure that contains non numeric values.
+ * Represents an exception thrown when a value is non numeric.
  * @extends Error
  */
 export class NonNumericValuesException extends Error {
@@ -57,3 +57,15 @@ export class NonNumericValuesException extends Error {
     this.name = "NonNumericValuesException";
   }
 }
+
+/**
+ * Represents an exception thrown when a value is non string.
+ * @extends Error
+ */
+export class NonStringValuesException extends Error {
+  constructor(message = "Non-String Values: Contains non string values.") {
+    super(message);
+    this.name = "NonStringValuesException";
+  }
+}
+

@@ -1,5 +1,5 @@
 import CircularDoublyList from "./CircularDoublyList.js";
-import { UnderflowException, OutOfBoundsException } from "utils/exceptions.js";
+import { UnderflowException, OutOfBoundsException } from "../../utils/exceptions.js";
 
 describe("CircularDoublyList", () => {
   let list;

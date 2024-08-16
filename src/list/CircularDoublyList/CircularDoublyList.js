@@ -1,4 +1,4 @@
-import { OutOfBoundsException, UnderflowException } from "utils/exceptions.js";
+import { OutOfBoundsException, UnderflowException } from "../../utils/exceptions.js";
 
 class Node {
   /**
@@ -254,7 +254,6 @@ class CircularDoublyList {
    * Inserts a node when the list is empty.
    * @param {Node} node - The node to be inserted.
    * @returns {Node} The inserted node.
-   * @private
    */
   #insertNodeIfEmpty(node) {
     node.next = node;
@@ -269,7 +268,6 @@ class CircularDoublyList {
    * @param {Node} atNode - The node after which the new node should be inserted.
    * @param {Node} newNode - The new node to be inserted.
    * @returns {Node} The newly inserted node.
-   * @private
    */
   #insertNode(atNode, newNode) {
     newNode.next = atNode.next;
@@ -284,7 +282,6 @@ class CircularDoublyList {
    * Deletes a specified node from the list.
    * @param {Node} node - The node to be deleted.
    * @returns {Node} The deleted node.
-   * @private
    */
   #deleteNode(node) {
     node.prev.next = node.next;

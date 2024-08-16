@@ -1,5 +1,5 @@
 import DoublyList from "./DoublyList.js";
-import { UnderflowException } from "utils/exceptions.js";
+import { UnderflowException } from "../../utils/exceptions.js";
 
 describe("DoublyList", () => {
   let list;
