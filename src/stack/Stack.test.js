@@ -1,5 +1,5 @@
-import Stack from "./Stack.js";
-import { UnderflowException, OverflowException } from "../utils/exceptions.js";
+import Stack from "./Stack";
+import { UnderflowException, OverflowException } from "../utils/exceptions";
 
 describe("Stack", () => {
   test("should create an empty stack with default capacity", () => {

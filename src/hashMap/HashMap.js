@@ -1,5 +1,5 @@
-import { sdbmHashing } from "./hash-functions.js";
-import { NonStringValuesException } from "../utils/exceptions.js";
+import { sdbmHashing } from "./hash-functions";
+import { NonStringValuesException } from "../utils/exceptions";
 
 class Node {
   /**

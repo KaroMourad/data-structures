@@ -1,8 +1,8 @@
-import Queue from "./Queue.js";
+import Queue from "./Queue";
 import {
   OverflowException,
   NonNumericValuesException,
-} from "../utils/exceptions.js";
+} from "../utils/exceptions";
 
 try {
   // 1. Create a queue with a capacity of 5
@@ -22,7 +22,9 @@ try {
   console.log("  Enqueued:", queue.enqueue(50)); // Throws OverflowException
 } catch (e) {
   if (e instanceof OverflowException) {
-    console.error("  OverflowException: Queue overflow - cannot add more elements");
+    console.error(
+      "  OverflowException: Queue overflow - cannot add more elements"
+    );
   } else {
     console.error("  An unexpected error occurred:", e.message);
   }
@@ -43,7 +45,9 @@ try {
   console.log("  Max value:", nonNumericQueue.getMax()); // Throws NonNumericValuesException
 } catch (e) {
   if (e instanceof NonNumericValuesException) {
-    console.error("  NonNumericValuesException: Queue contains no numeric values.");
+    console.error(
+      "  NonNumericValuesException: Queue contains no numeric values."
+    );
   } else {
     console.error("  An unexpected error occurred:", e.message);
   }

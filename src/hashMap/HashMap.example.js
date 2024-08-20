@@ -1,4 +1,4 @@
-import HashMap from './HashMap.js';
+import HashMap from './HashMap';
 
 // 1. Basic Insertion and Retrieval
 console.log('--- 1. Basic Insertion and Retrieval ---');

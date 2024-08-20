@@ -2,7 +2,7 @@ import {
   NonNumericValuesException,
   UnderflowException,
   OverflowException,
-} from "../utils/exceptions.js";
+} from "../utils/exceptions";
 
 /**
  * Stack represents a stack data structure (LIFO).

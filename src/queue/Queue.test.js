@@ -1,9 +1,9 @@
-import Queue from "./Queue.js";
+import Queue from "./Queue";
 import {
   UnderflowException,
   OverflowException,
   NonNumericValuesException,
-} from "../utils/exceptions.js";
+} from "../utils/exceptions";
 
 describe("Queue", () => {
   let queue;

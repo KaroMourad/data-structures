@@ -1,4 +1,4 @@
-import DoublyList from "./DoublyList.js";
+import DoublyList from "./DoublyList";
 
 // Create a new doubly linked list
 const list = new DoublyList();

@@ -1,5 +1,5 @@
-import List from "./List.js";
-import { OutOfBoundsException, UnderflowException } from "../../utils/exceptions.js";
+import List from "./List";
+import { OutOfBoundsException, UnderflowException } from "../../utils/exceptions";
 
 describe("Singly Linked List", () => {
   let list;

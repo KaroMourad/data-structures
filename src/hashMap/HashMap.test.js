@@ -1,5 +1,5 @@
-import HashMap from "./HashMap.js";
-import { NonStringValuesException } from "../utils/exceptions.js";
+import HashMap from "./HashMap";
+import { NonStringValuesException } from "../utils/exceptions";
 
 describe("HashMap", () => {
   let hashMap;
