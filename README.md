@@ -15,7 +15,7 @@ This repository contains custom implementations of various data structures in Ja
   - `isFull()`: Checks if the stack is full.
 - **Example:**
   ```javascript
-  import Stack from "path/to/src/Stack";
+  import Stack from "path/to/src/stack/Stack.js";
 
   const stack = new Stack(3);
   stack.push(10);
@@ -34,7 +34,7 @@ This repository contains custom implementations of various data structures in Ja
   - `isFull()`: Checks if the queue is full.
 - **Example:**
   ```javascript
-  import Queue from "path/to/src/Queue";
+  import Queue from "path/to/src/queue/Queue.js";
 
   const queue = new Queue(5);
   queue.enqueue(10);
@@ -56,9 +56,9 @@ This repository contains custom implementations of various data structures in Ja
   - `isEmpty()`: Checks if the list is empty.
 - **Example:**
   ```javascript
-  import SinglyLinkedList from "path/to/src/SinglyLinkedList";
+  import List from "path/to/src/list/SingleList/List.js";
 
-  const list = new SinglyLinkedList();
+  const list = new List();
   list.append(10);
   list.prepend(5);
   console.log(list.size); // Output: 2
@@ -81,9 +81,9 @@ This repository contains custom implementations of various data structures in Ja
   - `isEmpty()`: Checks if the list is empty.
 - **Example:**
   ```javascript
-  import DoublyLinkedList from "path/to/src/DoublyLinkedList";
+  import DoublyList from "path/to/src/list/DoublyList/DoublyList.js";
 
-  const list = new DoublyLinkedList();
+  const list = new DoublyList();
   list.insertAtEnd(10);
   list.insertAtBeginning(5);
   console.log(list.size); // Output: 2
@@ -105,9 +105,9 @@ This repository contains custom implementations of various data structures in Ja
   - `size`: Returns the number of nodes.
 - **Example:**
   ```javascript
-  import CircularLinkedList from "path/to/src/CircularLinkedList";
+  import CircularDoublyList from "path/to/src/list/CircularDoublyList/CircularDoublyList.js";
 
-  const list = new CircularLinkedList();
+  const list = new CircularDoublyList();
   list.insertAtEnd(10);
   list.insertAtBeginning(5);
   console.log(list.size); // Output: 2
@@ -127,7 +127,7 @@ This repository contains custom implementations of various data structures in Ja
   - `validateKey(key)`: Ensures the key is a string; throws `NonStringValuesException` if not.
 - **Example:**
   ```javascript
-  import HashMap from "path/to/src/HashMap";
+  import HashMap from "path/to/src/hashMap/HashMap.js";
 
   const map = new HashMap();
   map.put("key1", "value1");
